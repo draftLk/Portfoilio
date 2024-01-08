@@ -224,7 +224,7 @@
   text-decoration: none;
   color: #141414;
   font-size: 2.25rem;
-  font-family: "Ubuntu", Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 .buscador ul {
@@ -237,7 +237,7 @@
 }
 
 .buscador-foto img {
-  width: 503px;
+  max-width: 503px;
   height: 309px;
   border: solid 1px rgb(43, 43, 214);
   transition: 0.3s;
