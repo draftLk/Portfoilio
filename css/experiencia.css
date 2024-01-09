@@ -443,8 +443,9 @@
 
   .titulo-h2 {
     font-size: 2.1rem;
-    max-width: 162px;
-    margin: 30px auto;
+    max-width: 170px;
+    margin: 0px auto 30px auto;
+    position: relative;
   }
 
   .titulo-h2::after {
