@@ -232,7 +232,7 @@
   justify-content: start;
   gap: 20px;
   font-size: 1.2rem;
-  font-family: "Ubuntu", Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 20px;
 }
 
@@ -440,6 +440,11 @@
     width: 290px;
     height: 180px;
   }
+
+  .titulo-h2 {
+    font-size: 2rem;
+  }
+
   .paragrafo {
     font-size: 1rem;
   }
@@ -628,5 +633,12 @@
 
   .relogios-textos h3 a {
     font-size: 1.7rem;
+  }
+
+  .buscador-foto img {
+    margin-left: 0px;
+    width: 250px;
+    height: 140px;
+    margin: 0 auto;
   }
 }
