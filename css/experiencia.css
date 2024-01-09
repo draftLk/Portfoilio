@@ -232,7 +232,7 @@
   justify-content: start;
   gap: 20px;
   font-size: 1.2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Ubuntu", Arial, sans-serif;
   margin-top: 20px;
 }
 
@@ -440,18 +440,6 @@
     width: 290px;
     height: 180px;
   }
-
-  .titulo-h2 {
-    font-size: 2.1rem;
-    max-width: 170px;
-    margin: 0px auto 30px auto;
-    position: relative;
-  }
-
-  .titulo-h2::after {
-    width: 100%;
-  }
-
   .paragrafo {
     font-size: 1rem;
   }
