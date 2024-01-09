@@ -2,11 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
 body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Ubuntu", Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #141414;
 }
 

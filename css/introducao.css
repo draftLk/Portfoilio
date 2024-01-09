@@ -24,22 +24,22 @@
 }
 
 .first-titulo {
+  display: block;
   text-transform: uppercase;
-  font-size: 2.2rem;
-  line-height: 0.8;
-  letter-spacing: 0.8px;
+  font-size: 2.4rem;
   margin-bottom: 30px;
-  line-height: 1;
+  line-height: 1.1;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .first-titulo::after {
-  display: inline;
-  content: "•";
-  font-size: 1em;
-  position: relative;
-  top: 4px;
-  color: rgba(43, 43, 214, 0.925);
+  display: inline-block;
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: rgb(43, 43, 214);
+  border-radius: 50%;
+  margin-left: 5px;
 }
 
 .introducao p {
@@ -206,8 +206,5 @@
 
   .first-titulo {
     font-size: 2rem;
-  }
-  .first-titulo::after {
-    display: none;
   }
 }
