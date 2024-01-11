@@ -98,6 +98,16 @@
   text-align: start;
 }
 
+.curso p span {
+  display: inline-block;
+  margin-top: .5em;
+}
+
+.tecno p span {
+  display: inline-block;
+  margin-top: .5em;
+}
+
 .curso:hover {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
   transform: scale(1.1, 1.1);
