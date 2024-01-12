@@ -439,13 +439,12 @@
     width: 290px;
     height: 180px;
   }
+  .paragrafo {
+    font-size: 1.2rem;
+  }
 
   .titulo-h2 {
     font-size: 2rem;
-  }
-
-  .paragrafo {
-    font-size: 1rem;
   }
 
   .wild-textos ul li {
@@ -478,10 +477,6 @@
     height: 180px;
   }
 
-  .paragrafo {
-    font-size: 1rem;
-  }
-
   .bikcraft ul li {
     font-size: 1rem;
   }
@@ -494,9 +489,6 @@
     grid-row: 1;
     width: 290px;
     height: 180px;
-  }
-  .paragrafo {
-    font-size: 1rem;
   }
 
   .animaisFan li {
@@ -552,9 +544,6 @@
     width: 250px;
     height: 140px;
   }
-  .paragrafo {
-    font-size: 1rem;
-  }
 
   .wild-textos ul li {
     font-size: 1rem;
@@ -586,10 +575,6 @@
     height: 140px;
   }
 
-  .paragrafo {
-    font-size: 1rem;
-  }
-
   .bikcraft ul li {
     font-size: 1rem;
   }
@@ -602,9 +587,6 @@
     grid-row: 1;
     width: 250px;
     height: 140px;
-  }
-  .paragrafo {
-    font-size: 1rem;
   }
 
   .animaisFan li {
