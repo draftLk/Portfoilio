@@ -38,26 +38,27 @@
   opacity: 1;
 }
 
-.wildbeast {
-  display: flex;
-  align-items: center;
-  text-align: end;
-}
-
-.wildbeast h3 a {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  color: #141414;
-  font-size: 2.25rem;
-}
-
 .paragrafo {
   color: #525252;
   margin-top: 20px;
   display: block;
 }
 
-.wildbeast ul {
+.projetosRig {
+  display: flex;
+  align-items: center;
+  text-align: end;
+  margin-top: 7rem;
+}
+
+.projetosRig h3 a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #141414;
+  font-size: 2.25rem;
+}
+
+.projetosRig ul {
   display: flex;
   justify-content: end;
   gap: 20px;
@@ -66,15 +67,15 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.wild-foto img {
+.projetosRig img {
   max-width: 503px;
-  max-height: 309px;
+  height: 309px;
   margin-left: 6rem;
   border: solid 1px rgb(43, 43, 214);
   transition: 0.3s;
 }
 
-.brafe {
+.projetosLef {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -82,19 +83,19 @@
   margin-top: 7rem;
 }
 
-.brafe-textos {
+.projetosLef-textos {
   grid-column: 2;
   grid-row: 1;
 }
 
-.brafe h3 a {
+.projetosLef h3 a {
   text-decoration: none;
   color: #141414;
   font-size: 2.25rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.brafe ul {
+.projetosLef ul {
   display: flex;
   justify-content: start;
   gap: 20px;
@@ -103,140 +104,8 @@
   margin-top: 20px;
 }
 
-.brafe-foto img {
+.projetosLef-foto img {
   width: 503px;
-  height: 309px;
-  border: solid 1px rgb(43, 43, 214);
-  transition: 0.3s;
-}
-
-.bikcraft {
-  display: flex;
-  align-items: center;
-  text-align: end;
-  margin-top: 7rem;
-}
-
-.bikcraft h3 a {
-  text-decoration: none;
-  color: #141414;
-  font-size: 2.25rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.bikcraft ul {
-  display: flex;
-  justify-content: end;
-  gap: 20px;
-  font-size: 1.2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px;
-}
-
-.bike-foto img {
-  max-width: 503px;
-  height: 309px;
-  margin-left: 6rem;
-  border: solid 1px rgb(43, 43, 214);
-  transition: 0.3s;
-}
-
-.animaisFan {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin-top: 7rem;
-}
-
-.animais-textos {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.animaisFan h3 a {
-  text-decoration: none;
-  color: #141414;
-  font-size: 2.25rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.animaisFan ul {
-  display: flex;
-  justify-content: start;
-  gap: 20px;
-  font-size: 1.2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px;
-}
-
-.animaisFan-foto img {
-  width: 503px;
-  height: 309px;
-  border: solid 1px rgb(43, 43, 214);
-  transition: 0.3s;
-}
-
-.relogios {
-  display: flex;
-  align-items: center;
-  text-align: end;
-  margin-top: 7rem;
-}
-
-.relogios h3 a {
-  text-decoration: none;
-  color: #141414;
-  font-size: 2.25rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.relogios ul {
-  display: flex;
-  justify-content: end;
-  gap: 20px;
-  font-size: 1.2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px;
-}
-
-.relogios-foto img {
-  max-width: 503px;
-  height: 309px;
-  margin-left: 6rem;
-  border: solid 1px rgb(43, 43, 214);
-  transition: 0.3s;
-}
-
-.buscador {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin-top: 7rem;
-}
-
-.buscador-textos {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.buscador h3 a {
-  text-decoration: none;
-  color: #141414;
-  font-size: 2.25rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.buscador ul {
-  display: flex;
-  justify-content: start;
-  gap: 20px;
-  font-size: 1.2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px;
-}
-
-.buscador-foto img {
-  max-width: 503px;
   height: 309px;
   border: solid 1px rgb(43, 43, 214);
   transition: 0.3s;
@@ -252,46 +121,42 @@
     margin: 0 auto;
   }
 
+ 
   .titulo-h2 {
     text-align: center;
     margin-bottom: 2rem;
   }
 
-  .wildbeast {
+  .projetosRig {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
   }
 
-  .wild-foto img {
+  .projetosRig-foto img {
     margin-left: 0px;
     grid-row: 1;
   }
-  .wild-textos {
+  .projetosRig-textos {
     margin-top: 1.8rem;
     grid-row: 2;
     max-width: 700px;
     text-align: center;
   }
 
-  .wild-textos ul {
+  .projetosRig-textos ul {
     display: flex;
     justify-content: center;
   }
 
-  .brafe {
+  .projetosLef {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .wild-foto img {
-    margin-left: 0px;
-    justify-self: flex-start;
-  }
-
-  .brafe-textos {
+  .projetosLef-textos {
     margin-top: 1.8rem;
     max-width: 700px;
     grid-row: 2;
@@ -299,123 +164,7 @@
     order: 1;
   }
 
-  .brafe-textos ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .bikcraft {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .bike-foto img {
-    margin-left: 0px;
-    justify-self: flex-start;
-  }
-
-  .bik-textos {
-    margin-top: 1.8rem;
-    grid-row: 2;
-    text-align: center;
-    max-width: 700px;
-    order: 1;
-  }
-
-  .bik-textos ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .animaisFan {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr;
-  }
-
-  .animaisFan-foto img {
-    display: flex;
-    margin: 0 auto;
-    grid-row: 1;
-    width: 503px;
-    height: 309px;
-    border: solid 1px rgb(43, 43, 214);
-    transition: 0.3s;
-  }
-
-  .animais-textos {
-    grid-row: 2;
-    grid-column: 1;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 700px;
-  }
-
-  .animais-textos h3 {
-    margin-top: 1.8rem;
-  }
-
-  .animais-textos ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .relogios {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .relogios-foto img {
-    margin-left: 0px;
-    justify-self: flex-start;
-  }
-
-  .relogios-textos {
-    margin-top: 1.8rem;
-    grid-row: 2;
-    text-align: center;
-    max-width: 700px;
-    order: 1;
-  }
-
-  .relogios-textos ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .buscador {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr;
-  }
-
-  .buscador-foto img {
-    display: flex;
-    margin: 0 auto;
-    grid-row: 1;
-    width: 503px;
-    height: 309px;
-    border: solid 1px rgb(43, 43, 214);
-    transition: 0.3s;
-  }
-
-  .buscador-textos {
-    text-align: center;
-    grid-row: 2;
-    grid-column: 1;
-    margin: 0 auto;
-    max-width: 700px;
-  }
-
-  .buscador-textos h3 {
-    margin-top: 1.8rem;
-  }
-
-  .buscador-textos ul {
+  .projetosLef-textos ul {
     display: flex;
     justify-content: center;
   }
@@ -433,12 +182,6 @@
 }
 
 @media (max-width: 660px) {
-  .wild-foto img {
-    margin-left: 0px;
-    grid-row: 1;
-    width: 290px;
-    height: 180px;
-  }
   .paragrafo {
     font-size: 1.2rem;
   }
@@ -447,179 +190,69 @@
     font-size: 2rem;
   }
 
-  .wild-textos ul li {
-    font-size: 1rem;
-  }
-
-  .wild-textos h3 a {
-    font-size: 1.7rem;
-  }
-
-  .brafe-foto img {
+  .projetosRig-foto img {
     margin-left: 0px;
     grid-row: 1;
     width: 290px;
     height: 180px;
   }
 
-  .brafe-textos ul li {
+  .projetosRig-textos ul li {
     font-size: 1rem;
   }
 
-  .brafe-textos h3 a {
+  .projetosRig-textos h3 a {
     font-size: 1.7rem;
   }
-
-  .bike-foto img {
+  
+  .projetosLef-foto img {
     margin-left: 0px;
     grid-row: 1;
     width: 290px;
     height: 180px;
   }
 
-  .bikcraft ul li {
+  .projetosLef-textos ul li {
     font-size: 1rem;
   }
 
-  .bik-textos h3 a {
+  .projetosLef-textos h3 a {
     font-size: 1.7rem;
-  }
-
-  .animaisFan-foto img {
-    grid-row: 1;
-    width: 290px;
-    height: 180px;
-  }
-
-  .animaisFan li {
-    font-size: 1rem;
-  }
-
-  .animais-textos h3 a {
-    font-size: 1.7rem;
-  }
-
-  .animais-textos {
-    text-align: center;
-  }
-
-  .relogios-foto img {
-    margin-left: 0px;
-    grid-row: 1;
-    width: 290px;
-    height: 180px;
-  }
-
-  .relogios ul li {
-    font-size: 1rem;
-  }
-
-  .relogios-textos h3 a {
-    font-size: 1.7rem;
-  }
-
-  .buscador-foto img {
-    grid-row: 1;
-    width: 290px;
-    height: 180px;
-  }
-
-  .buscador li {
-    font-size: 1rem;
-  }
-
-  .buscador-textos h3 a {
-    font-size: 1.7rem;
-  }
-
-  .buscador-textos {
-    text-align: center;
   }
 }
 
 @media (max-width: 365px) {
-  .wild-foto img {
+  .paragrafo {
+    font-size: 1rem;
+  }
+
+  .projetosRig-foto img {
     margin-left: 0px;
     grid-row: 1;
     width: 250px;
     height: 140px;
   }
 
-  .wild-textos ul li {
+  .projetosRig-textos ul li {
     font-size: 1rem;
   }
 
-  .wild-textos h3 a {
+  .projetosRig-textos h3 a {
     font-size: 1.7rem;
   }
 
-  .brafe-foto img {
+  .projetosLef-foto img {
     margin-left: 0px;
     grid-row: 1;
     width: 250px;
     height: 140px;
   }
 
-  .brafe-textos ul li {
+  .projetosLef-textos ul li {
     font-size: 1rem;
   }
 
-  .brafe-textos h3 a {
+  .projetosLef-textos h3 a {
     font-size: 1.7rem;
-  }
-
-  .bike-foto img {
-    margin-left: 0px;
-    grid-row: 1;
-    width: 250px;
-    height: 140px;
-  }
-
-  .bikcraft ul li {
-    font-size: 1rem;
-  }
-
-  .bik-textos h3 a {
-    font-size: 1.7rem;
-  }
-
-  .animaisFan-foto img {
-    grid-row: 1;
-    width: 250px;
-    height: 140px;
-  }
-
-  .animaisFan li {
-    font-size: 1rem;
-  }
-
-  .animais-textos h3 a {
-    font-size: 1.7rem;
-  }
-
-  .animais-textos {
-    text-align: center;
-  }
-
-  .relogios-foto img {
-    margin-left: 0px;
-    grid-row: 1;
-    width: 250px;
-    height: 140px;
-  }
-
-  .relogios ul li {
-    font-size: 1rem;
-  }
-
-  .relogios-textos h3 a {
-    font-size: 1.7rem;
-  }
-
-  .buscador-foto img {
-    margin-left: 0px;
-    width: 250px;
-    height: 140px;
-    margin: 0 auto;
   }
 }
