@@ -1,7 +1,7 @@
 [data-scrollanime=""] {
   opacity: 0;
-  transform: translate3d(-150px, 0, 0);
-  transition: 1s;
+  transform: translate3d(-190px, 0, 0);
+  transition: 1.2s;
 }
 
 [data-scrollanime=""].ativo {

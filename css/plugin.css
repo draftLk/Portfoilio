@@ -1,14 +1,14 @@
 .fadeInDown {
-  transform: translate3d(0, -60px, 0);
+  transform: translate3d(0, -90px, 0);
 }
 .fadeInUp {
-  transform: translate3d(0, 60px, 0);
+  transform: translate3d(0, 90px, 0);
 }
 .fadeInRight {
-  transform: translate3d(60px, 0, 0);
+  transform: translate3d(90px, 0, 0);
 }
 .fadeInLeft {
-  transform: translate3d(-60px, 0, 0);
+  transform: translate3d(-90px, 0, 0);
 }
 [data-anime] {
   opacity: 0;
@@ -16,5 +16,5 @@
 .anime {
   opacity: 1;
   transform: none;
-  transition: transform 0.9s, opacity 0.9s;
+  transition: transform 1.2s, opacity 0.9s;
 }
